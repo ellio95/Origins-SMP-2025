@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"origins:burn_in_daylight"
+	],
+	"icon": "minecraft:sunflower",
+	"order": 13,
+	"impact": 3,
+	"name": "Sunwoven",
+	"description":"A species reliant on the sun."
+}

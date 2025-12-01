@@ -1,5 +1,5 @@
 {
-  "type": "origins:modify_falling",
+  "type": "origins:active_self",
   "key": {
     "key": "key.jump",
     "continuous": true

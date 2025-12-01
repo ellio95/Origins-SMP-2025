@@ -27,9 +27,9 @@
 		"octo:camoflauge_name_show",
 		"octo:camoflauge_name_hide"
 	],
-	
+	"icon": "minecraft:kelp",
 	"order": 11,
 	"impact": 3,
-	"name": "oclacerta",
-	"description":"an octopus guy."
+	"name": "Oclacerta",
+	"description":"An octopus guy."
 }

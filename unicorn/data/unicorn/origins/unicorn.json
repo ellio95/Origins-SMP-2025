@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"origins:burn_in_daylight"
+	],
+	"icon": "minecraft:sunflower",
+	"order": 12,
+	"impact": 1,
+	"name": "Unicorn",
+	"description":"The mythical horse species, the Unicorn!"
+}
