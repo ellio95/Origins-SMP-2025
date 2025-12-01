@@ -1,0 +1,214 @@
+{
+  "type": "origins:multiple",
+  "fade_0": {
+    "type": "origins:model_color",
+    "alpha": 1.0,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  },
+  "fade_1": {
+    "type": "origins:model_color",
+    "alpha": 0.95,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  },
+  "fade_2": {
+    "type": "origins:model_color",
+    "alpha": 0.9,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 2
+    }
+  },
+  "fade_3": {
+    "type": "origins:model_color",
+    "alpha": 0.85,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 3
+    }
+  },
+  "fade_4": {
+    "type": "origins:model_color",
+    "alpha": 0.8,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 4
+    }
+  },
+  "fade_5": {
+    "type": "origins:model_color",
+    "alpha": 0.75,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 5
+    }
+  },
+  "fade_6": {
+    "type": "origins:model_color",
+    "alpha": 0.7,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 6
+    }
+  },
+  "fade_7": {
+    "type": "origins:model_color",
+    "alpha": 0.65,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 7
+    }
+  },
+  "fade_8": {
+    "type": "origins:model_color",
+    "alpha": 0.6,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 8
+    }
+  },
+  "fade_9": {
+    "type": "origins:model_color",
+    "alpha": 0.55,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 9
+    }
+  },
+  "fade_10": {
+    "type": "origins:model_color",
+    "alpha": 0.5,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 10
+    }
+  },
+  "fade_11": {
+    "type": "origins:model_color",
+    "alpha": 0.45,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 11
+    }
+  },
+  "fade_12": {
+    "type": "origins:model_color",
+    "alpha": 0.4,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 12
+    }
+  },
+  "fade_13": {
+    "type": "origins:model_color",
+    "alpha": 0.35,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 13
+    }
+  },
+  "fade_14": {
+    "type": "origins:model_color",
+    "alpha": 0.3,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 14
+    }
+  },
+  "fade_15": {
+    "type": "origins:model_color",
+    "alpha": 0.25,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 15
+    }
+  },
+  "fade_16": {
+    "type": "origins:model_color",
+    "alpha": 0.2,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 16
+    }
+  },
+  "fade_17": {
+    "type": "origins:model_color",
+    "alpha": 0.2,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 17
+    }
+  },
+  "fade_18": {
+    "type": "origins:model_color",
+    "alpha": 0.15,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 18
+    }
+  },
+  "fade_19": {
+    "type": "origins:model_color",
+    "alpha": 0.15,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 19
+    }
+  },
+  "fade_20": {
+    "type": "origins:model_color",
+    "alpha": 0.15,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:fade_resource",
+      "comparison": "==",
+      "compare_to": 20
+    }
+
+  }
+}

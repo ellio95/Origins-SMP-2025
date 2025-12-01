@@ -1,0 +1,22 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 1,
+	"duration_per_stack": 20,
+	"effect": {
+		"effect": "minecraft:slowness",
+		"duration": 100,
+		"amplifier": 3,
+		"is_abient": true,
+		"show_particles": false,
+		"show_icon": true
+	},
+	"condition": {
+		"type": "origins:submerged_in",
+		"fluid": "minecraft:water",
+		"inverted": true
+	},
+	"name": "water legs",
+	"description": "Your slimy body is not used to land"
+}
+		

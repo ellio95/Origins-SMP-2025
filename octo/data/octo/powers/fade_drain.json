@@ -1,0 +1,21 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "octo:fade_resource",
+    "change": -1
+  },
+  "interval": 1,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+        {
+            "type": "origins:moving"
+        },
+        {      
+            "type": "origins:sneaking",
+            "inverted": true
+        }
+    ]
+  }
+}

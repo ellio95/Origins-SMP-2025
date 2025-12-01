@@ -1,0 +1,35 @@
+{
+	"powers": [
+		"origins:aqua_affinity",
+		"origins:burn_in_daylight",
+		"origins:carnivore",
+		"origins:swim_speed",
+		"origins:conduit_power_on_land",
+		"origins:water_vision",
+		"origins:aquatic",
+		"origins:extra_reach",
+		"octo:water_legs",
+		"octo:8_legs_8_lives",
+		"octo:water_breathing",
+		"octo:tenticles_sa",
+		"octo:tenticles_sb",
+		"octo:tenticles_sc",
+		"octo:tenticles_ha",
+		"octo:tenticles_hb",
+		"octo:tenticles_hc",
+		"octo:tenticles_pa",
+		"octo:tenticles_pb",
+		"octo:tenticles_pc",
+		"octo:fade_resource",
+		"octo:fade_fill",
+		"octo:fade_drain",
+		"octo:camoflauge",
+		"octo:camoflauge_name_show",
+		"octo:camoflauge_name_hide"
+	],
+	
+	"order": 11,
+	"impact": 3,
+	"name": "oclacerta",
+	"description":"an octopus guy."
+}
