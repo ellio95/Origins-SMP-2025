@@ -1,0 +1,30 @@
+{
+  "type": "origins:multiple",
+  "hidden": true,
+  "fill": {
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "condition": {
+      "type": "origins:exposed_to_sun"
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "plant:sunmeter",
+      "change": 1
+    }
+  },
+  "empty": {
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "condition": {
+      "type": "origins:exposed_to_sun",
+      "inverted": true
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "plant:sunmeter",
+      "change": -1
+    }
+  }
+
+}
