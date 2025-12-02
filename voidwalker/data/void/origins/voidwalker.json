@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins:burn_in_daylight"
+  ],
+  "icon": "minecraft:sculk",
+  "order": 12,
+  "impact": 1,
+  "name": "Voidwalker",
+  "description":"Mystical beings not belonging to any dimension. Voidwalkers possess the power to traverse dimensions at will, at a cost."
+}
