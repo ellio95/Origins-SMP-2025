@@ -1,0 +1,45 @@
+{
+  "type": "origins:multiple",
+
+  "teleport_effect": {
+    "type": "origins:action_when_damage_taken",
+    "condition": {
+      "type": "origins:chance",
+      "chance": 1.0
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:random_teleport",
+          "min_distance": 1,
+          "max_distance": 5
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.enderman.teleport"
+        },
+        {
+          "type": "origins:spawn_particles",
+          "particle": "minecraft:portal",
+          "count": 30
+        }
+      ]
+    }
+  },
+
+  "cancel_damage": {
+    "type": "origins:modify_damage_taken",
+    "condition": {
+      "type": "origins:chance",
+      "chance": 1.0
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 0
+    }
+  },
+
+  "name": "Parallel Moment",
+  "description": "When struck, you have a chance to take no damage and blink away."
+}
