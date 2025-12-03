@@ -1,0 +1,29 @@
+{
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:in_tag",
+        "tag": "minecraft:in_fire"
+      },
+      {
+        "type": "origins:in_tag",
+        "tag": "minecraft:on_fire"
+      },
+      {
+        "type": "origins:in_tag",
+        "tag": "minecraft:lava"
+      },
+      {
+        "type": "origins:in_tag",
+        "tag": "minecraft:hot_floor"
+      }
+    ]
+  },
+  "modifier": {
+    "name": "Weak to fire",
+    "operation": "multiply_total_multiplicative",
+    "value": 1
+  }
+}

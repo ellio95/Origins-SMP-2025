@@ -2,7 +2,8 @@
 	"powers": [
       "plant:sunmeter",
       "plant:sunmeteradjust",
-      "plant:sunabilities"
+      "plant:sunabilities",
+      "plant:fire_weakness"
 	],
 	"icon": "minecraft:sunflower",
 	"order": 13,
