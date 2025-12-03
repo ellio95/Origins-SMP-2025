@@ -1,7 +1,7 @@
  {
     "name": "Parallel Moment",
     "description": "When struck, you have a chance to take no damage and blink away.",
-    "type": "origins:action_when_hit",
+    "type": "origins:action_on_hit",
     "bientity_action": {
       "type": "origins:chance",
       "chance": 0.15,
@@ -22,9 +22,15 @@
               "particle": "minecraft:portal",
               "count": 30
             }
+          },
+          {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:execute_command",
+              "command": "spreadplayers ~ ~ 1 5 false @s"
+            }
           }
         ]
       }
     }
   }
-

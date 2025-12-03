@@ -1,0 +1,7 @@
+{
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "operation": "set_base",
+    "value": 0
+  }
+}
