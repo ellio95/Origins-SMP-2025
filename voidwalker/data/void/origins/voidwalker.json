@@ -1,14 +1,14 @@
 {
   "powers": [
-    "voidwalker:parallel_moment",
-    "voidwalker:portal_sense",
-    "voidwalker:dimension_warp",
-    "voidwalker:warp_strike",
-    "voidwalker:warp_sickness",
-    "voidwalker:warp_delay",
-    "voidwalker:warp_safety",
-    "voidwalker:warp_hungar",
-    "voidwalker:dimensional_damage"
+    "void:parallel_moment",
+    "void:portal_sense",
+    "void:dimension_warp",
+    "void:warp_strike",
+    "void:warp_sickness",
+    "void:warp_delay",
+    "void:warp_safety",
+    "void:warp_hungar",
+    "void:dimensional_damage"
   ],
   "icon": "minecraft:end_crystal",
   "order": 14,
