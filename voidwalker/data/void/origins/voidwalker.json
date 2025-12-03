@@ -11,7 +11,7 @@
     "voidwalker:dimensional_damage"
   ],
   "icon": "minecraft:end_crystal",
-  "order": 12,
+  "order": 14,
   "impact": 1,
   "name": "Voidwalker",
   "description": "Mystical beings not belonging to any dimension. Voidwalkers possess the power to traverse dimensions at will, at a cost."
