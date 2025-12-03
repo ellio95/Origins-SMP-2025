@@ -1,29 +1,31 @@
 {
   "type": "origins:modify_damage_taken",
+  "name": "Weak to fire",
+  "description": "As a plant, you are weaker to all types of fire.",
   "damage_condition": {
     "type": "origins:or",
     "conditions": [
       {
-        "type": "origins:in_tag",
-        "tag": "minecraft:in_fire"
+        "type": "origins:name",
+        "name": "inFire"
       },
       {
-        "type": "origins:in_tag",
-        "tag": "minecraft:on_fire"
+        "type": "origins:name",
+        "name": "onFire"
       },
       {
-        "type": "origins:in_tag",
-        "tag": "minecraft:lava"
+        "type": "origins:name",
+        "name": "hotFloor"
       },
       {
-        "type": "origins:in_tag",
-        "tag": "minecraft:hot_floor"
+        "type": "origins:name",
+        "name": "lava"
       }
     ]
   },
   "modifier": {
     "name": "Weak to fire",
-    "operation": "multiply_total_multiplicative",
+    "operation": "multiply_base",
     "value": 1
   }
 }
