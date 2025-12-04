@@ -1,0 +1,34 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 2400,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "execute in minecraft:the_nether run spreadplayers ~ ~ 1 5 false @s",
+        "condition": {
+          "type": "origins:dimension",
+          "dimension": "minecraft:the_nether",
+          "inverted": true
+        }
+      },
+      {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 1200,
+        "effect": {
+          "effect": "minecraft:strength",
+          "is_ambient": true,
+          "show_icon": false,
+          "show_particles": false
+        },
+        "condition": {
+          "type": "origins:dimension",
+          "dimension": "minecraft:the_nether"
+        }
+      }
+    ]
+  }
+}

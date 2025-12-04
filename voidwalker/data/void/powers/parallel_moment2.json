@@ -1,0 +1,60 @@
+{
+  "type": "origins:multiple",
+  "charge": {
+    "type": "origins:self_action_when_hit",
+    "damage_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:name",
+          "name": "mob"
+        },
+        {
+          "type": "origins:chance",
+          "chance": 0.15
+        }
+      ]
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "void:warp_resource",
+      "change": 1
+    }
+  },
+  "use": {
+    "type": "origins:modify_damage_taken",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "void:warp_resource",
+      "comparison": "==",
+      "compare_to": 1
+    },
+    "self_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.enderman.teleport"
+        },
+        {
+          "type": "origins:spawn_particles",
+          "particle": "minecraft:portal",
+          "count": 30
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "spreadplayers ~ ~ 1 5 false @s"
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "void:warp_resource",
+          "change": -1
+        }
+      ]
+    },
+    "modifier" : {
+      "operation": "set_total",
+      "value": 0
+    }
+  }
+}
