@@ -1,36 +1,49 @@
  {
     "name": "Parallel Moment",
     "description": "When struck, you have a chance to take no damage and blink away.",
-    "type": "origins:action_on_hit",
+    "type": "origins:modify_damage_taken",
+   "damage_condition": {
+     "type": "origins:and",
+     "conditions": [
+       {
+         "type": "origins:chance",
+         "chance": 0.15
+       },
+       {
+         "type": "origins:name",
+         "name": "mob"
+       }
+     ]
+   },
     "bientity_action": {
-      "type": "origins:chance",
-      "chance": 0.15,
-      "action": {
-        "type": "origins:and",
-        "actions": [
-          {
-            "type": "origins:target_action",
-            "action": {
-              "type": "origins:play_sound",
-              "sound": "minecraft:entity.enderman.teleport"
-            }
-          },
-          {
-            "type": "origins:target_action",
-            "action": {
-              "type": "origins:spawn_particles",
-              "particle": "minecraft:portal",
-              "count": 30
-            }
-          },
-          {
-            "type": "origins:target_action",
-            "action": {
-              "type": "origins:execute_command",
-              "command": "spreadplayers ~ ~ 1 5 false @s"
-            }
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.enderman.teleport"
           }
-        ]
-      }
-    }
+        },
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:spawn_particles",
+            "particle": "minecraft:portal",
+            "count": 30
+          }
+        },
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:execute_command",
+            "command": "spreadplayers ~ ~ 1 5 false @s"
+          }
+        }
+      ]
+    },
+   "modifier": {
+     "operation": "set_total",
+     "value": 0
+   }
   }
