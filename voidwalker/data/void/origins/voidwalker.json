@@ -1,6 +1,9 @@
 {
   "powers": [
-    "void:parallel_moment"
+    "void:parallel_moment",
+    "void:netherdamage",
+    "void:enddamage",
+    "void:portalsense"
   ],
   "icon": "minecraft:end_crystal",
   "order": 14,
