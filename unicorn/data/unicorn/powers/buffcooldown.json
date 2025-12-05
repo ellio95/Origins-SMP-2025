@@ -1,0 +1,10 @@
+{
+  "type": "origins:cooldown",
+  "cooldown": 200,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+    "should_render": true,
+    "bar_index": 0,
+    "sprite_index": 0
+  }
+}
