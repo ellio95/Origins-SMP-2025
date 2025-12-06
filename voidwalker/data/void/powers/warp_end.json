@@ -47,6 +47,14 @@
           "dimension": "minecraft:the_end"
         },
         "power": "void:dimension_cd"
+      },
+      {
+        "type": "origins:exhaust",
+        "entity_condition": {
+          "type": "origins:dimension",
+          "dimension": "minecraft:the_end"
+        },
+        "amount": 50
       }
     ]
   }

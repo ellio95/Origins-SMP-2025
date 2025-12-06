@@ -46,6 +46,14 @@
           "dimension": "minecraft:overworld"
         },
         "power": "void:dimension_cd"
+      },
+      {
+        "type": "origins:exhaust",
+        "entity_condition": {
+          "type": "origins:dimension",
+          "dimension": "minecraft:overworld"
+        },
+        "amount": 50
       }
     ]
   }

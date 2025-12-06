@@ -44,6 +44,14 @@
           "dimension": "minecraft:the_nether"
         },
         "power": "void:dimension_cd"
+      },
+      {
+        "type": "origins:exhaust",
+        "entity_condition": {
+          "type": "origins:dimension",
+          "dimension": "minecraft:the_nether"
+        },
+        "amount": 50
       }
     ]
   }
