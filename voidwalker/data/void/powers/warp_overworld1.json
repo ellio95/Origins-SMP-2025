@@ -5,8 +5,7 @@
     "conditions": [
       {
         "type": "origins:dimension",
-        "dimension": "minecraft:the_nether",
-        "inverted": true
+        "dimension": "minecraft:the_nether"
       },
       {
         "type": "origins:resource",
@@ -21,13 +20,13 @@
     "actions": [
       {
         "type": "origins:execute_command",
-        "command": "execute in minecraft:the_nether run spreadplayers ~ ~ 1 10 under 120 false @s"
+        "command": "execute in minecraft:overworld run spreadplayers ~ ~ 1 10 false @s"
       },
       {
         "type": "origins:apply_effect",
         "condition": {
           "type": "origins:dimension",
-          "dimension": "minecraft:the_nether"
+          "dimension": "minecraft:overworld"
         },
         "effect": {
           "effect": "minecraft:strength",
@@ -41,7 +40,7 @@
         "type": "origins:trigger_cooldown",
         "condition": {
           "type": "origins:dimension",
-          "dimension": "minecraft:the_nether"
+          "dimension": "minecraft:overworld"
         },
         "power": "void:dimension_cd"
       }

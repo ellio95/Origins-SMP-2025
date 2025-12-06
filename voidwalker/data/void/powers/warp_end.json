@@ -1,11 +1,14 @@
 {
   "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
   "condition": {
     "type": "origins:and",
     "conditions": [
       {
         "type": "origins:dimension",
-        "dimension": "minecraft:the_nether",
+        "dimension": "minecraft:the_end",
         "inverted": true
       },
       {
@@ -21,13 +24,13 @@
     "actions": [
       {
         "type": "origins:execute_command",
-        "command": "execute in minecraft:the_nether run spreadplayers ~ ~ 1 10 under 120 false @s"
+        "command": "execute in minecraft:the_end run spreadplayers ~ ~ 1 10 false @s"
       },
       {
         "type": "origins:apply_effect",
         "condition": {
           "type": "origins:dimension",
-          "dimension": "minecraft:the_nether"
+          "dimension": "minecraft:the_end"
         },
         "effect": {
           "effect": "minecraft:strength",
@@ -39,9 +42,9 @@
       },
       {
         "type": "origins:trigger_cooldown",
-        "condition": {
+        "entity_condition": {
           "type": "origins:dimension",
-          "dimension": "minecraft:the_nether"
+          "dimension": "minecraft:the_end"
         },
         "power": "void:dimension_cd"
       }

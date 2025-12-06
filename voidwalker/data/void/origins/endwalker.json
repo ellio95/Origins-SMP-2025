@@ -1,0 +1,18 @@
+{
+  "unchoosable": true,
+  "powers": [
+    "void:parallel_moment2",
+    "void:warp_resource",
+    "void:dimensional_aggression",
+    "void:warp_nether",
+    "void:warp_end",
+    "void:warp_overworld1",
+    "void:warp_overworld2",
+    "void:dimension_cd"
+  ],
+  "icon": "minecraft:end_crystal",
+  "order": 14,
+  "impact": 1,
+  "name": "Voidwalker",
+  "description": "Mystical beings not belonging to any dimension. Voidwalkers possess the power to traverse dimensions at will, at a cost."
+}

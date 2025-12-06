@@ -1,18 +1,21 @@
 {
+  "unchoosable": false,
   "powers": [
     "void:parallel_moment2",
     "void:warp_resource",
     "void:dimensional_aggression",
+    "void:warp_nether",
+    "void:warp_overworld1",
     "void:dimension_cd"
   ],
   "icon": "minecraft:end_crystal",
-  "order": 14,
+  "order": 15,
   "impact": 1,
   "name": "Voidwalker",
   "description": "Mystical beings not belonging to any dimension. Voidwalkers possess the power to traverse dimensions at will, at a cost.",
   "upgrades": {
-    "condition": "minecraft:nether/root",
-    "origin": "void:netherwalker",
-    "announcement": "You've discovered a new dimension. You now have the ability to warp to the nether!"
+    "condition": "minecraft:end/root",
+    "origin": "void:endwalker",
+    "announcement": "You've discovered a new dimension. You now have the ability to warp to the end!"
   }
 }

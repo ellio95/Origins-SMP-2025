@@ -1,6 +1,8 @@
 {
   "replace": false,
   "origins": [
-    "void:voidwalker"
+    "void:voidwalker",
+    "void:netherwalker",
+    "void:endwalker"
   ]
 }

@@ -1,26 +1,23 @@
 {
-  "type": "origins:periodic_action",
+  "type": "origins:action_over_time",
   "interval": 20,
-  "entity_action": {
-    "type": "origins:conditional",
-    "condition": {
-      "type": "origins:near_block",
-      "radius": 100,
-      "blocks": [
-        "minecraft:end_portal_frame",
-        "minecraft:nether_portal",
-        "minecraft:crying_obsidian"
-      ]
+  "condition": {
+    "type": "origins:block_in_radius",
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "void:portalblocks"
     },
-    "action": {
-      "type": "origins:spawn_particles",
-      "particle": "minecraft:dragon_breath",
-      "count": 10,
-      "spread": {
-        "x": 1.0,
-        "y": 2.0,
-        "z": 1.0
-      }
+    "radius": 75,
+    "shape": "sphere"
+  },
+  "action": {
+    "type": "origins:spawn_particles",
+    "particle": "minecraft:dragon_breath",
+    "count": 10,
+    "spread": {
+      "x": 1.0,
+      "y": 2.0,
+      "z": 1.0
     }
   },
   "name": "Portal Sense",
