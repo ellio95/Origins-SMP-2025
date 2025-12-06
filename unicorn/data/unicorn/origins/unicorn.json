@@ -3,7 +3,8 @@
       "unicorn:buff",
       "unicorn:ridable",
       "unicorn:buffcooldown",
-      "unicorn:sweettooth"
+      "unicorn:sweettooth",
+      "unicorn:honey"
     ],
 	"icon": "minecraft:sunflower",
 	"order": 12,
