@@ -1,7 +1,7 @@
 {
   "type": "origins:cooldown",
   "hidden": true,
-  "cooldown": 400,
+  "cooldown": 1200,
   "hud_render": {
     "should_render": true,
     "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
