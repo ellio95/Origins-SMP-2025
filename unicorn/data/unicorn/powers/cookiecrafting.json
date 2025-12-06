@@ -1,0 +1,39 @@
+{
+  "type": "origins:recipe",
+  "recipe": {
+    "id": "unicorn:haste_8_cookie",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:wither_rose"
+      },
+      {
+        "item": "minecraft:wither_rose"
+      },
+      {
+        "item": "minecraft:wither_rose"
+      },
+      {
+        "item": "minecraft:torchflower"
+      },
+      {
+        "item": "minecraft:cookie"
+      },
+      {
+        "item": "minecraft:torchflower"
+      },
+      {
+        "item": "minecraft:torchflower"
+      },
+      {
+        "item": "minecraft:torchflower"
+      },
+      {
+        "item": "minecraft:torchflower"
+      }
+    ],
+    "result": {
+      "item": "minecraft:cookie"
+    }
+  }
+}

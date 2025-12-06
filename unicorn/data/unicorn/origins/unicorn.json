@@ -4,7 +4,9 @@
       "unicorn:ridable",
       "unicorn:buffcooldown",
       "unicorn:sweettooth",
-      "unicorn:honey"
+      "unicorn:honey",
+      "unicorn:cookiecrafting",
+      "unicorn:cookienbt"
     ],
 	"icon": "minecraft:sunflower",
 	"order": 12,

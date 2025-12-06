@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_crafting",
+  "recipe": "unicorn:haste_8_cookie",
+  "result": {
+    "item": "minecraft:cookie",
+    "amount": 1,
+    "tag": "{CustomName:'{\"text\":\"Delicious Haste Cookie\"}',display:{Lore:['{\"text\":\"Grants Haste when eaten\"}']}}"
+  }
+}
