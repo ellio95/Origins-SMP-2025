@@ -2,7 +2,8 @@
 	"powers": [
       "unicorn:buff",
       "unicorn:ridable",
-      "unicorn:buffcooldown"
+      "unicorn:buffcooldown",
+      "unicorn:sweettooth"
     ],
 	"icon": "minecraft:sunflower",
 	"order": 12,
