@@ -1,0 +1,1 @@
+execute as @a[tag=rainbow_jumper] at @s run particle dust 0.2 0.33 1 90 ~ ~ ~ 0.5 0.5 0.5 0 10

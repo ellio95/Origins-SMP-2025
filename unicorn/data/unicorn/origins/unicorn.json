@@ -7,7 +7,9 @@
       "unicorn:honey",
       "unicorn:cookiecrafting",
       "unicorn:cookienbt",
-      "unicorn:weakwithfriends"
+      "unicorn:weakwithfriends",
+      "unicorn:rainbowjump",
+      "unicorn:slowfallclear"
     ],
 	"icon": "minecraft:sunflower",
 	"order": 12,

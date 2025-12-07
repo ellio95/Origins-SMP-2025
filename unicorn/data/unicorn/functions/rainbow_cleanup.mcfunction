@@ -1,0 +1,1 @@
+tag @a[tag=rainbow_jumper] remove rainbow_jumper
