@@ -1,9 +1,253 @@
 {
-  "type": "origins:modify_crafting",
-  "recipe": "unicorn:haste_8_cookie",
-  "result": {
-    "item": "minecraft:cookie",
-    "amount": 1,
-    "tag": "{CustomName:'{\"text\":\"Delicious Haste Cookie\"}',display:{Lore:['{\"text\":\"Grants Haste when eaten\"}']}}"
+  "type": "origins:multiple",
+
+  "modify_cookie_everything": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_everything",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Everything Cookie\"}',display:{Lore:['{\"text\":\"Grants all positive effects\"}']}}"
+    }
+  },
+
+  "modify_cookie_haste_8": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_haste_8",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Haste VIII Cookie\"}',display:{Lore:['{\"text\":\"Grants Haste VIII when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_haste_2": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_haste_2",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Haste II Cookie\"}',display:{Lore:['{\"text\":\"Grants Haste II when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_resistance_2": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_resistance_2",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Resistance II Cookie\"}',display:{Lore:['{\"text\":\"Grants Resistance II when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_strength_2": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_strength_2",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Strength II Cookie\"}',display:{Lore:['{\"text\":\"Grants Strength II when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_instant_health_2": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_instant_health_2",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Instant Health II Cookie\"}',display:{Lore:['{\"text\":\"Grants Instant Health II when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_regeneration_2": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_regeneration_2",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Regeneration II Cookie\"}',display:{Lore:['{\"text\":\"Grants Regeneration II when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_speed_2": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_speed_2",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Speed II Cookie\"}',display:{Lore:['{\"text\":\"Grants Speed II when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_resistance_1": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_resistance_1",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Resistance I Cookie\"}',display:{Lore:['{\"text\":\"Grants Resistance I when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_strength_1": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_strength_1",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Strength I Cookie\"}',display:{Lore:['{\"text\":\"Grants Strength I when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_speed_1": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_speed_1",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Speed I Cookie\"}',display:{Lore:['{\"text\":\"Grants Speed I when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_jump_boost_1": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_jump_boost_1",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Jump Boost I Cookie\"}',display:{Lore:['{\"text\":\"Grants Jump Boost I when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_regeneration_1": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_regeneration_1",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Regeneration I Cookie\"}',display:{Lore:['{\"text\":\"Grants Regeneration I when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_instant_health_1": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_instant_health_1",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Instant Health I Cookie\"}',display:{Lore:['{\"text\":\"Grants Instant Health I when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_conduit_power": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_conduit_power",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Conduit Power Cookie\"}',display:{Lore:['{\"text\":\"Grants Conduit Power when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_full_hunger": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_full_hunger",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Feast Cookie\"}',display:{Lore:['{\"text\":\"Fully restores hunger and saturation\"}']}}"
+    }
+  },
+
+  "modify_cookie_strength_4": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_strength_4",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Strength IV Cookie\"}',display:{Lore:['{\"text\":\"Grants Strength IV when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_speed_4": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_speed_4",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Speed IV Cookie\"}',display:{Lore:['{\"text\":\"Grants Speed IV when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_night_vision": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_night_vision",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Night Vision Cookie\"}',display:{Lore:['{\"text\":\"Grants Night Vision when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_fire_resistance": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_fire_resistance",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Fire Resistance Cookie\"}',display:{Lore:['{\"text\":\"Grants Fire Resistance when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_water_breathing": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_water_breathing",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Water Breathing Cookie\"}',display:{Lore:['{\"text\":\"Grants Water Breathing when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_invisibility": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_invisibility",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Invisibility Cookie\"}',display:{Lore:['{\"text\":\"Grants Invisibility when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_instant_health_4": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_instant_health_4",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Instant Health IV Cookie\"}',display:{Lore:['{\"text\":\"Grants Instant Health IV when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_regeneration_4": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_regeneration_4",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Regeneration IV Cookie\"}',display:{Lore:['{\"text\":\"Grants Regeneration IV when eaten\"}']}}"
+    }
+  },
+
+  "modify_cookie_jump_boost_4": {
+    "type": "origins:modify_crafting",
+    "recipe": "unicorn:cookie_jump_boost_4",
+    "result": {
+      "item": "minecraft:cookie",
+      "amount": 1,
+      "tag": "{CustomName:'{\"text\":\"Jump Boost IV Cookie\"}',display:{Lore:['{\"text\":\"Grants Jump Boost IV when eaten\"}']}}"
+    }
   }
 }

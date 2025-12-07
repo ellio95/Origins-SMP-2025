@@ -1,0 +1,201 @@
+{
+  "type": "origins:multiple",
+
+  "ink_shot_active": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "particle dust 0 0 0 30 ~ ~1 ~ 5 2 5 0 200"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "particle dust 0 0 0 20 ~ ~1 ~ 4 1.5 4 0.1 150"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "particle dust 0 0 0 10 ~ ~1 ~ 3 1 3 0.2 100"
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "octo:fade_resource",
+          "operation": "set",
+          "change": 20
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "entity.squid.squirt",
+          "volume": 10.0,
+          "pitch": 0.8
+        }
+      ]
+    },
+    "key": {
+      "key": "key.origins.primary_active",
+      "continuous": false
+    },
+    "cooldown": 250,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+      "bar_index": 1
+    }
+  },
+
+  "ink_field_sustained": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "particle dust 0 0 0 2 ~ ~0.5 ~ 3 1 3 0 30"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "particle dust 0 0 0 1 ~ ~0.5 ~ 2 0.5 2 0.05 20"
+        }
+      ]
+    },
+    "interval": 3,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "comparison": ">",
+          "compare_to": 0,
+          "resource": "octo:ink_resource"
+        },
+        {
+          "type": "origins:sneaking"
+        }
+      ]
+    }
+  },
+
+  "ink_trail_sprint": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "particle dust 0 0 0 1.5 ~ ~0.2 ~ 0.4 0.1 0.4 0 5"
+    },
+    "interval": 3,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sprinting"
+        },
+        {
+          "type": "origins:on_block"
+        },
+        {
+          "type": "origins:resource",
+          "resource": "octo:ink_cooldown_timer",
+          "comparison": ">",
+          "compare_to": 200
+        }
+      ]
+    }
+  },
+
+  "ink_resource": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 100,
+    "start_value": 100,
+    "hud_render": {
+      "should_render": false,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+      "bar_index": 1
+    }
+  },
+
+  "ink_resource_deplete_blast": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:set_resource",
+      "resource": "octo:ink_resource",
+      "value": 0
+    },
+    "interval": 1,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:ink_cooldown_timer",
+      "comparison": "==",
+      "compare_to": 249
+    }
+  },
+
+  "ink_resource_recharge": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "octo:ink_resource",
+      "change": 2
+    },
+    "interval": 5,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "octo:ink_resource",
+          "comparison": "<",
+          "compare_to": 100
+        },
+        {
+          "type": "origins:resource",
+          "resource": "octo:ink_cooldown_timer",
+          "comparison": "<",
+          "compare_to": 200
+        }
+      ]
+    }
+  },
+
+  "ink_cooldown_timer": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 250,
+    "start_value": 250,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+
+  "ink_cooldown_countdown": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "octo:ink_cooldown_timer",
+      "change": -1
+    },
+    "interval": 1,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:ink_cooldown_timer",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+
+  "ink_cooldown_reset": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:set_resource",
+      "resource": "octo:ink_cooldown_timer",
+      "value": 250
+    },
+    "interval": 1,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "octo:ink_cooldown_timer",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  }
+}

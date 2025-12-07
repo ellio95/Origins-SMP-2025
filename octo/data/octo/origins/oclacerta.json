@@ -25,7 +25,8 @@
 		"octo:fade_drain",
 		"octo:camoflauge",
 		"octo:camoflauge_name_show",
-		"octo:camoflauge_name_hide"
+		"octo:camoflauge_name_hide",
+        "octo:inkshot"
 	],
 	"icon": "minecraft:kelp",
 	"order": 11,

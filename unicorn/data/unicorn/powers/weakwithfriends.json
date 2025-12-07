@@ -1,0 +1,16 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "operation": "multiply_total_multiplicative",
+    "value": -0.25
+  },
+  "bientity_condition": {
+    "type": "origins:actor_condition",
+    "condition": {
+      "type": "origins:command",
+      "command": "execute if entity @a[distance = ..32]",
+      "comparison": ">=",
+      "compare_to": 2
+    }
+  }
+}
