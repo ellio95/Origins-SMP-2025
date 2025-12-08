@@ -1,9 +1,14 @@
 {
 	"powers": [
+      "origins:climbing",
       "plant:sunmeter",
       "plant:sunmeteradjust",
       "plant:sunabilities",
-      "plant:fire_weakness"
+      "plant:fire_weakness",
+      "plant:size",
+      "plant:size_switch",
+      "plant:big_effects",
+      "plant:photosynthesis"
 	],
 	"icon": "minecraft:sunflower",
 	"order": 13,

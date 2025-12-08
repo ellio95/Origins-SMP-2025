@@ -1,0 +1,78 @@
+{
+  "type": "origins:multiple",
+  "hidden": true,
+  "change": {
+    "type": "origins:active_self",
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:resource",
+            "resource": "plant:sunmeter",
+            "comparison": ">=",
+            "compare_to": 5
+          },
+          {
+            "type": "origins:resource",
+            "resource": "plant:size",
+            "comparison": "==",
+            "compare_to": 0
+          }
+        ]
+      },
+      "else_action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:execute_command",
+            "command": "function plant:small"
+          },
+          {
+            "type": "origins:change_resource",
+            "resource": "plant:size",
+            "change": -1
+          }
+        ]
+      },
+      "if_action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:execute_command",
+            "command": "function plant:normal"
+          },
+          {
+            "type": "origins:change_resource",
+            "resource": "plant:sunmeter",
+            "change": -5
+          },
+          {
+            "type": "origins:change_resource",
+            "resource": "plant:size",
+            "change": 1
+          }
+        ]
+      }
+    }
+  },
+  "reset": {
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+      "type": "origins:execute_command",
+      "command": "function plant:small"
+    },
+    "entity_action_lost": {
+      "type": "origins:execute_command",
+      "command": "function plant:normal"
+    },
+    "entity_action_respawned": {
+      "type": "origins:execute_command",
+      "command": "function plant:small"
+    }
+  }
+}

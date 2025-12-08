@@ -3,8 +3,8 @@
   "name": "Sun Energy",
   "description": "You gain your energy from the sun!",
   "min": 0,
-  "max": 20,
-  "start_value": 10,
+  "max": 200,
+  "start_value": 100,
   "hud_render": {
     "should_render": true,
     "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",

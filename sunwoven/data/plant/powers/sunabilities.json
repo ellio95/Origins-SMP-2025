@@ -20,5 +20,25 @@
       "comparison": "<=",
       "compare_to": 5
     }
+  },
+  "high_sun": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "tick_rate": 10,
+    "effects": {
+      "effect": "minecraft:speed",
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": false
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "plant:sunmeter",
+      "comparison": ">=",
+      "compare_to": 15
+    }
   }
 }
