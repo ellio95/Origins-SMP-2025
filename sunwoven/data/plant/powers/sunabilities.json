@@ -18,7 +18,7 @@
       "type": "origins:resource",
       "resource": "plant:sunmeter",
       "comparison": "<=",
-      "compare_to": 5
+      "compare_to": 50
     }
   },
   "high_sun": {
@@ -38,7 +38,7 @@
       "type": "origins:resource",
       "resource": "plant:sunmeter",
       "comparison": ">=",
-      "compare_to": 15
+      "compare_to": 150
     }
   }
 }
