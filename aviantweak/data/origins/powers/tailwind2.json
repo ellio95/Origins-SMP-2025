@@ -1,5 +1,4 @@
 {
-  "loading_priority": 10,
   "type": "origins:attribute",
   "modifier": {
     "name": "Tailwind speed bonus",
