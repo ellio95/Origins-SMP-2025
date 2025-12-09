@@ -18,7 +18,7 @@
       "type": "origins:resource",
       "resource": "plant:sunmeter",
       "comparison": "<=",
-      "compare_to": 50
+      "compare_to": 30
     }
   },
   "high_sun": {

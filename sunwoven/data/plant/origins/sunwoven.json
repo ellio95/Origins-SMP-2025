@@ -8,7 +8,8 @@
       "plant:size",
       "plant:size_switch",
       "plant:big_effects",
-      "plant:photosynthesis"
+      "plant:photosynthesis",
+      "plant:no_helmet"
 	],
 	"icon": "minecraft:sunflower",
 	"order": 13,

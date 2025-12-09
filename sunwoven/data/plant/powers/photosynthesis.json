@@ -31,12 +31,12 @@
         {
           "type":"origins:feed",
           "food":2,
-          "saturation":0.5
+          "saturation":0.6
         },
         {
           "type": "origins:change_resource",
           "resource": "plant:sunmeter",
-          "change": -20
+          "change": -12
         }
       ]
     }

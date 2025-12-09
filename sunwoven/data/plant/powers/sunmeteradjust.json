@@ -13,6 +13,29 @@
       "change": 3
     }
   },
+  "low_fill": {
+    "type": "origins:action_over_time",
+    "interval": 30,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:exposed_to_sun",
+          "inverted": true
+        },
+        {
+          "type": "brightness",
+          "comparison": ">=",
+          "compare_to": 0.5
+        }
+      ]
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "plant:sunmeter",
+      "change": 2
+    }
+  },
   "empty": {
     "type": "origins:action_over_time",
     "interval": 20,
